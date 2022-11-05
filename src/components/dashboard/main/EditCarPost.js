@@ -28,7 +28,7 @@ const EditCarPost = ({
   const [imageIndex, setImageIndex] = useState(0);
   const [validateSending, setValidateSending] = useState("");
 
-  const server = "https://jade-worried-dhole.cyclic.app";
+  const server = ""https://fair-cyan-dalmatian-robe.cyclic.app"";
 
   let filteredCar = cars.filter((car) => car._id === selectedId);
 

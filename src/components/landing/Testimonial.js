@@ -5,7 +5,7 @@ const Testimonial = () => {
   const [testimonialIndex, setTestimonialIndex] = useState(0);
   const [testimonials, setTestimonials] = useState([]);
 
-  const server = "https://jade-worried-dhole.cyclic.app";
+  const server = ""https://fair-cyan-dalmatian-robe.cyclic.app"";
 
   useEffect(() => {
     axios

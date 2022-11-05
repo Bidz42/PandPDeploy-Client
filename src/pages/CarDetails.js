@@ -10,7 +10,7 @@ const CarDetails = () => {
   const [car, setCar] = useState({});
   const [imageIndex, setImageIndex] = useState(0);
 
-  const server = "https://jade-worried-dhole.cyclic.app";
+  const server = ""https://fair-cyan-dalmatian-robe.cyclic.app"";
 
 
   useEffect(() => {
