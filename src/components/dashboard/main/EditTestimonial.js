@@ -10,7 +10,7 @@ const EditTestimonial = ({
 }) => {
   const [author, setAuthor] = useState("");
   const [body, setBody] = useState("");
-  const server = ""https://fair-cyan-dalmatian-robe.cyclic.app"";
+  const server = "https://fair-cyan-dalmatian-robe.cyclic.app";
 
   //Edit a testiomonial
   const handleTestimonialEdit = (e, id) => {

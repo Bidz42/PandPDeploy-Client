@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 const NewCarPost = ({ handleCloseSecondSection, refresh, setRefresh }) => {
-  const server = ""https://fair-cyan-dalmatian-robe.cyclic.app"";
+  const server = "https://fair-cyan-dalmatian-robe.cyclic.app";
 
   const [make, setMake] = useState("");
   const [model, setModel] = useState("");
