@@ -14,13 +14,13 @@ const Navbar = () => {
         <div className="container px-4 md:mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link
-              className="text-sm font-bold leading-relaxed inline-block mr-4 whitespace-nowrap uppercase text-white"
+              className="text-sm font-bold leading-relaxed inline-block  whitespace-nowrap uppercase text-white mr-[20%] md:mr-4"
               to="/"
             >
               <img src={logo} alt="logo" className="w-28 md:w-40" />
             </Link>
             <button
-              className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none ml-[20%] md:ml-0"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
