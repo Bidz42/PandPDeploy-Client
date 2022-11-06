@@ -69,22 +69,22 @@ const Navbar = () => {
                 </NavHashLink>
               </li>
               <li className="nav-item">
-                <Link
+                <NavLink
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                   to="/cars"
                   onClick={() => setNavbarOpen(!navbarOpen)}
                 >
                   <span className="ml-2">Catalogue</span>
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link
+                <NavLink
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                   to="/info"
                   onClick={() => setNavbarOpen(!navbarOpen)}
                 >
                   <span className="ml-2">Info</span>
-                </Link>
+                </NavLink>
               </li>
               {isLoggedIn && 
               <li className="nav-item">
