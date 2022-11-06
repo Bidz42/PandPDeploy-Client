@@ -10,8 +10,8 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between py-2 md:px-2 bg-black ">
-        <div className="container md:px-4 mx-auto flex flex-wrap items-center justify-between">
+      <nav className="relative flex flex-wrap items-center justify-between py-2 px-2 bg-black ">
+        <div className="container px-4 md:mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link
               className="text-sm font-bold leading-relaxed inline-block mr-4 whitespace-nowrap uppercase text-white"

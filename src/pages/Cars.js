@@ -175,7 +175,7 @@ const Cars = () => {
     const layoutByOne = {
       container: "w-full",
       infoSection: "flex flex-col lg:flex-row justify-center mt-5 gap-2",
-      image: "rounded-xl h-[150px] sm:h-[195px] md:h-[450px] lg:h-[440px] w-[660px]",
+      image: "rounded-xl h-[175px] sm:h-[220px] md:h-[450px] lg:h-[440px] w-[660px]",
       icon: <BsSquareFill />
 
     }
@@ -183,7 +183,7 @@ const Cars = () => {
     const layoutByTwo = {
       container: "w-full lg:w-1/2",
       infoSection: "flex flex-col lg:flex-row justify-center mt-5 gap-2",
-      image: "rounded-xl h-[150px] sm:h-[195px] md:h-[450px] lg:h-[440px] w-[660px]",
+      image: "rounded-xl h-[175px] sm:h-[220px] md:h-[450px] lg:h-[440px] w-[660px]",
       icon: <TfiLayoutGrid2 />
 
 
@@ -193,7 +193,7 @@ const Cars = () => {
     const layoutByThree = {
       container: "w-full lg:w-1/3",
       infoSection: "flex flex-col lg:flex-row justify-center mt-5 gap-2",
-      image: "rounded-xl h-[150px] sm:h-[195px] md:h-[450px] lg:h-[325px] w-[660px]",
+      image: "rounded-xl h-[175px] sm:h-[220px] md:h-[450px] lg:h-[325px] w-[660px]",
       icon: <TfiLayoutGrid3 />
 
     }
