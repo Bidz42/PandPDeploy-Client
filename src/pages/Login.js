@@ -7,6 +7,8 @@ const Login = () => {
   const [identifier, setIdentifier] = useState("");
   const [password, setPassword] = useState("");
   const { storeToken, authenticateUser } = useContext(AuthContext);
+  const [validateSending, setValidateSending] = useState("");
+
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
@@ -18,12 +20,17 @@ const Login = () => {
         console.log("JWT token", response.data.authToken);
         storeToken(response.data.authToken);
         authenticateUser();
+        setValidateSending(response.data);
       })
       .then((response) => {
         console.log("Logged in");
         navigate("/admin/dashboard");
       })
       .catch((err) => console.log(err));
+
+      return setInterval(() => {
+        return setValidateSending("");
+      }, 2000);
   };
 
   return (
@@ -87,7 +94,7 @@ const Login = () => {
                   />
                 </svg>
               </span>
-              SIGN IN
+              {validateSending || "SIGN IN"}
             </button>
           </div>
         </form>
