@@ -14,7 +14,7 @@ import {BsSquareFill} from 'react-icons/bs'
 
 
 const Cars = () => {
-  const server = "https://drab-red-woodpecker-hat.cyclic.app";
+  const server = "http://localhost:5005";
 
   const [cars, setCars] = useState([]);
 
@@ -175,7 +175,7 @@ const Cars = () => {
     const layoutByOne = {
       container: "w-full",
       infoSection: "flex flex-col lg:flex-row justify-center mt-5 gap-2",
-      image: "rounded-xl h-[150px] sm:h-[195px] md:h-[420px] lg:h-[430px] w-[660px]",
+      image: "rounded-xl h-[150px] sm:h-[195px] md:h-[420px] lg:h-[440px] w-[660px]",
       icon: <BsSquareFill />
 
     }
@@ -183,7 +183,7 @@ const Cars = () => {
     const layoutByTwo = {
       container: "w-full lg:w-1/2",
       infoSection: "flex flex-col lg:flex-row justify-center mt-5 gap-2",
-      image: "rounded-xl h-[150px] sm:h-[195px] md:h-[420px] lg:h-[430px] w-[660px]",
+      image: "rounded-xl h-[150px] sm:h-[195px] md:h-[420px] lg:h-[440px] w-[660px]",
       icon: <TfiLayoutGrid2 />
 
 

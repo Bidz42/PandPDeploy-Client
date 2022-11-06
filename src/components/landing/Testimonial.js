@@ -5,7 +5,7 @@ const Testimonial = () => {
   const [testimonialIndex, setTestimonialIndex] = useState(0);
   const [testimonials, setTestimonials] = useState([]);
 
-  const server = "https://drab-red-woodpecker-hat.cyclic.app";
+  const server = "http://localhost:5005";
 
   useEffect(() => {
     axios
