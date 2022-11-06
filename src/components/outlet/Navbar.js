@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="container px-4 md:mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link
-              className="text-sm font-bold leading-relaxed inline-block mr-[75%] md:mr-4 whitespace-nowrap uppercase text-white"
+              className="text-sm font-bold leading-relaxed inline-block md:mr-4 whitespace-nowrap uppercase text-white"
               to="/"
             >
               <img src={logo} alt="logo" className="w-28 md:w-40" />
