@@ -20,6 +20,7 @@ const Login = () => {
         console.log("JWT token", response.data.authToken);
         storeToken(response.data.authToken);
         authenticateUser();
+        console.log(response.data)
         setValidateSending(response.data);
       })
       .then((response) => {
