@@ -12,6 +12,7 @@ module.exports = {
       gold : "#d4af37"
     },
     screens: {
+      'xs': '200px',
       'sm': '375px',
       // => @media (min-width: 640px) { ... } 
   
