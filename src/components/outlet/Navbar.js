@@ -10,8 +10,8 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between py-2 px-2 bg-black ">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <nav className="relative flex flex-wrap items-center justify-between py-2 md:px-2 bg-black ">
+        <div className="container md:px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link
               className="text-sm font-bold leading-relaxed inline-block mr-4 whitespace-nowrap uppercase text-white"
@@ -53,6 +53,7 @@ const Navbar = () => {
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                   smooth
                   to="/#bonPlans"
+                  onClick={() => setNavbarOpen(!navbarOpen)}
                 >
                   <span className="ml-2">Bons Plans</span>
                 </NavHashLink>
@@ -62,6 +63,7 @@ const Navbar = () => {
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                   smooth
                   to="/#temoniage"
+                  onClick={() => setNavbarOpen(!navbarOpen)}
                 >
                   <span className="ml-2">Témoignages</span>
                 </NavHashLink>
@@ -70,6 +72,7 @@ const Navbar = () => {
                 <Link
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                   to="/cars"
+                  onClick={() => setNavbarOpen(!navbarOpen)}
                 >
                   <span className="ml-2">Catalogue</span>
                 </Link>
@@ -78,6 +81,7 @@ const Navbar = () => {
                 <Link
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                   to="/info"
+                  onClick={() => setNavbarOpen(!navbarOpen)}
                 >
                   <span className="ml-2">Info</span>
                 </Link>

@@ -28,7 +28,7 @@ const OtherOffers = ({ cars }) => {
             <div className="bg-black rounded-lg border border-gray-200 shadow-2xl mx-auto">
               <Link to={`/${car._id}`}>
                 <img
-                  className="rounded-t-lg w-full h-[130px] sm:h-[175px] md:h-[400px] lg:h-[320px]"
+                  className="rounded-t-lg w-[300px] md:w-[600px] lg:w-[500px] h-[130px] sm:h-[175px] md:h-[400px] lg:h-[320px]"
                   src={car.image[0]}
                   alt={car.name}
                 />
